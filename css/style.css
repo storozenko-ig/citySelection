@@ -7,12 +7,6 @@ a {
   color: inherit;
   text-decoration: none;
 }
-p {
-  padding: 0 auto;
-  margin: 0 auto;
-  color: #666666;
-  font-size: 18px;
-}
 button {
   outline: none;
   cursor: pointer;
@@ -23,26 +17,24 @@ div {
 li {
   list-style-type: none;
 }
-
 body {
   color: white;
   font-family: "Roboto", sans-serif;
   line-height: 21px;
   margin: 0 auto;
+  font-size: 21px;
 }
 .header {
   height: 100vh;
 }
 .contener {
-  max-width: 1400px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 0 15px;
   position: relative;
   background-color: #ff8000;
 }
 .header__top {
-  display: flex;
-  justify-content: flex-end;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -50,65 +42,65 @@ body {
   display: flex;
   align-items: center;
 }
+.menu__city {
+  width: 25%;
+}
 .menu__list {
-  margin-right: 30px;
+  width: 50%;
+  text-align: center;
+}
+.menu__list-profil-info {
+  width: 100%;
 }
 .menu__list-item,
-.menu__list-item-city,
-.menu__list-profil-info {
+.menu__list-profil-info,
+.menu__list-item-city {
   display: inline-block;
-  padding-right: 30px;
 }
 .menu-list-list:hover {
   text-decoration: underline;
 }
-.menu__city {
-  display: flex;
-  align-items: center;
-  margin-right: 100px;
+.menu__list-item {
+  margin: 0 10px;
 }
 .menu__list-city-location-icon {
-  position: fixed;
-  left: 110px;
-  top: 24px;
+  position: absolute;
+  left: -20px;
+  top: 0px;
 }
 .menu__list-city-location-icon img {
-  width: 30px;
-  height: 30px;
+  width: 45%;
+  font-weight: 700;
 }
 .menu__list-profil-info-icon-phone img {
-  width: 20px;
-  height: 20px;
-}
-.menu__list-profil-info {
-  display: flex;
+  width: 7%;
 }
 .menu__list-profil-info-phone {
-  min-width: 125px;
+  margin-right: 5px;
 }
 
-/* city */
+/* window-city */
 .window-change-city {
   position: absolute;
   border: 1px solid white;
   background-color: transparent;
-  left: 290px;
-  top: 15px;
-  width: 150px;
-  height: 50px;
+  left: 250px;
+  top: 25px;
+  width: 12%;
+  height: 55px;
   text-align: center;
   border-radius: 5px;
   display: none;
 }
 .button-change-city {
-  width: 50px;
+  width: 30%;
   height: 25px;
   margin-right: 5px;
 }
-/* list */
+/* list-city */
 .menu__list-city-selection {
   position: relative;
-  width: 150px;
+  width: 100%;
   padding: 10px;
   margin: 0 auto;
   background: #ff8000;
@@ -122,7 +114,7 @@ body {
   width: 0;
   height: 0;
   position: absolute;
-  right: 16px;
+  right: -5%;
   top: 50%;
   margin-top: -6px;
   border-width: 6px 0 6px 6px;
@@ -135,12 +127,10 @@ body {
   left: -35%;
   right: 0;
   top: 100%;
-  font-size: 18px;
   outline: none;
   color: #666666;
   opacity: 0;
   pointer-events: none;
-  max-width: 160px;
   text-align: center;
   font-weight: normal;
 }

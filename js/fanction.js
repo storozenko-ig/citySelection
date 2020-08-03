@@ -21,15 +21,11 @@ function newCreateElement(tag, opt, children, value) {
 }
 function addClass(addClass, className) {
   let elem = document.querySelector(className);
-  if (addClass) {
-    elem.classList.add(addClass);
-  }
+  elem.classList.add(addClass);
 }
 function removeClass(addClass, className) {
   let elem = document.querySelector(className);
-  if (addClass) {
-    elem.classList.remove(addClass);
-  }
+  elem.classList.remove(addClass);
 }
 
 function City(obj, parentWindow, parentList, parentPhone) {

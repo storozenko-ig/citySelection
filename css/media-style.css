@@ -1,0 +1,74 @@
+@media screen and (max-width: 1600px) {
+  .contener {
+    max-width: 1600px;
+    padding: 0 20px;
+    font-size: 21px;
+  }
+  .menu__list-city-selection {
+    width: 200px;
+    text-align: center;
+  }
+  .menu__list-profil-info-icon-phone {
+    margin-right: 5px;
+  }
+  .menu__list-profil-info-icon-phone img {
+    width: 25px;
+    height: 20px;
+  }
+  .menu__list-profil-info-phone {
+    margin-right: 5px;
+  }
+  .menu__list-city-location-icon {
+    left: 110px;
+    top: 30px;
+  }
+  .window-change-city {
+    left: 300px;
+    width: 170px;
+  }
+  .list-city {
+    left: -25%;
+    font-size: 21px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .contener {
+    max-width: 1400px;
+    padding: 0 10px;
+    font-size: 19px;
+  }
+  .menu__list {
+    margin-right: 0px;
+    width: 680px;
+    padding: 0px;
+    text-align: center;
+  }
+  .menu__list-profil {
+    width: 450px;
+    margin-right: 0px;
+  }
+  .menu__city {
+    margin-right: 30px;
+  }
+  .menu__list-item,
+  .menu__list-item-city,
+  .menu__list-profil-info {
+    padding-right: 10px;
+  }
+  .menu__list-city-location-icon {
+    left: 30px;
+    top: 28px;
+  }
+  .window-change-city {
+    left: 210px;
+    width: 140px;
+    font-size: 15px;
+  }
+  .button-change-city {
+    width: 40px;
+  }
+  .list-city {
+    left: -13%;
+    font-size: 19px;
+  }
+}
